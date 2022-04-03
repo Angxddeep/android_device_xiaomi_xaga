@@ -10,6 +10,9 @@ $(call inherit-product, device/xiaomi/mt6895-common/mt6895.mk)
 # Display
 $(call soong_config_set_bool,surfaceflinger,register_displayservice,true)
 
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, device/xiaomi/miuicamera-xaga/device.mk)
+
 # FM Radio
 PRODUCT_PACKAGES += \
     FMRadio
