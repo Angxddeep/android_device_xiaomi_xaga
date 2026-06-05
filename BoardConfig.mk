@@ -13,7 +13,7 @@ include device/xiaomi/mt6895-common/BoardConfigCommon.mk
 TARGET_BOOTLOADER_BOARD_NAME := xaga
 
 # Display
-TARGET_SCREEN_DENSITY := 420
+TARGET_SCREEN_DENSITY := 430
 
 # HIDL
 ODM_MANIFEST_SKUS += xagain
