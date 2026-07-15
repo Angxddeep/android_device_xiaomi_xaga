@@ -48,6 +48,7 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlayXagaIn \
     SettingsProviderOverlayXagaPro \
     SystemUIResXaga \
+    XagaUpdaterOverlay \
     WifiOverlayXaga \
     WifiOverlayXagaCn \
     WifiOverlayXagaIn \
