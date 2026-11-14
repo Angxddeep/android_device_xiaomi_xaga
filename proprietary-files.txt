@@ -586,6 +586,9 @@ vendor/lib64/mt6895/xagas5khm2_mipi_raw_3_tuning.so;SYMLINK=vendor/lib64/xagas5k
 vendor/lib64/mt6895/xagas5khm2_mipi_raw_IdxMgr.so;SYMLINK=vendor/lib64/xagas5khm2_mipi_raw_IdxMgr.so
 vendor/lib64/mt6895/xagas5khm2_mipi_raw_tuning.so;SYMLINK=vendor/lib64/xagas5khm2_mipi_raw_tuning.so
 
+# Face unlock
+product/app/Biometric/Biometric.apk:vendor/etc/faceunlock/resources.zip
+
 # Charger (Mi Turbo Charge)
 vendor/bin/batterysecret
 
